@@ -12,7 +12,6 @@ jobs:
       contents: 'read'
       id-token: 'write'
 
-    runs-on: actuated
     steps:
       - uses: actions/checkout@master
         with:
